@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100%;
+}
+
+.sidebar {
+    background-color: steelblue;
+    color: white;
+    display: grid;
+}
+
+.side-logo {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 2rem 2rem 0 2rem;
+}
+
+.menu {
+    margin-top: 6rem;
+    position: fixed;
+    list-style-type: none;
+}
+
+.menu-item {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem
+}
+
+.header {
+    background: yellow;
+}
